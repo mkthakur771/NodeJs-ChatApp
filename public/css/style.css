@@ -57,7 +57,7 @@ a {
 }
 
 .chat-header {
-	background: #f34d16ce;
+	background: #1e0047;
 	color: #fff;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -122,7 +122,7 @@ a {
 
 .chat-form-container {
 	padding: 20px 30px;
-	background-color:#f34d16ce;
+	background-color:#1e0047;
 }
 
 .chat-form-container form {
