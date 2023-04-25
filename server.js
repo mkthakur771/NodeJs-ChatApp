@@ -17,7 +17,7 @@ const io = socketio(server);
 // Set static folder
 app.use(express.static(path.join(__dirname, 'public')));
 
-const botName = 'Rx Bot';
+const botName = 'Anonymous Bot';
 
 // Run when client connects
 io.on('connection', socket => {
@@ -27,7 +27,7 @@ io.on('connection', socket => {
     socket.join(user.room);
 
     // Welcome current user
-    socket.emit('message', formatMessage(botName, 'Welcome to Rx - Chat!'));
+    socket.emit('message', formatMessage(botName, 'Welcome to Anonymous - Chat!'));
 
     // Broadcast when a user connects
     socket.broadcast
